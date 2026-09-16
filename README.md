@@ -2,18 +2,18 @@
 
 ## 1. Group Information
 
-**Class:** A/B/C/D  
-**Group:** 1
+**Class:** C 
+**Group:** 4
 
 ### Group Members
 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
-| 1 | Student 1 | XXXXX | Project Coordinator |
-| 2 | Student 2 | XXXXX | Algorithm |
-| 3 | Student 3 | XXXXX | Flowchart |
-| 4 | Student 4 | XXXXX | JavaScript |
-| 5 | Student 5 | XXXXX | Testing & Documentation |
+| 1 | Yusuf Yunus Kusuma | 2610312101 | Project Coordinator |
+| 2 | Nayara Fazila | 2610312102 | Algorithm |
+| 3 | Khafli Artha | 2610312078 | Flowchart |
+| 4 | Alivia Ramadhani Atmojo | 2610312076 | JavaScript |
+| 5 | Naya Khalilah Putri | 2610312100 | Testing & Documentation |
 
 ---
 
