@@ -4,9 +4,9 @@
         <attribute name="name" value="package cost calculator"/>
         <attribute name="authors" value="kh98l"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-09-17 09:42:47 AM"/>
+        <attribute name="saved" value="2026-09-17 11:11:58 AM"/>
         <attribute name="created" value="a2g5OGw7S0hBRkxJOzIwMjYtMDktMTA7MDY6MjM6MzQgQU07MjEzMA=="/>
-        <attribute name="edited" value="a2g5OGw7S0hBRkxJOzIwMjYtMDktMTc7MDk6NDI6NDcgQU07NjsyMjU4"/>
+        <attribute name="edited" value="a2g5OGw7S0hBRkxJOzIwMjYtMDktMTc7MTE6MTE6NTggQU07ODsyMjUx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -68,9 +68,18 @@
                 </if>
                 <assign variable="hargatotal" expression="hargaservis + hargaberat + hargajarak"/>
                 <output expression="&quot;Untuk total harga pengantaran paketnya adalah $&quot; &amp; hargatotal &amp; ToChar(13)&amp; &quot;Untuk harga servis paketnya adalah $&quot; &amp; hargaservis &amp; ToChar(13)&amp; &quot;Untuk harga berat paketnya adalah $&quot; &amp; hargaberat &amp; ToChar(13)&amp; &quot;Untuk harga jarak paketnya adalah $&quot; &amp; hargajarak" newline="True"/>
-                <output expression="&quot;Hitung biaya paket lain? 1= iya 2= tidak&quot;" newline="True"/>
-                <input variable="ulang"/>
+                <do expression="ulang != 1 &amp;&amp; ulang != 2">
+                    <output expression="&quot;Hitung biaya paket lain? 1= iya 2= tidak&quot;" newline="True"/>
+                    <input variable="ulang"/>
+                    <if expression="ulang != 1 &amp;&amp; ulang != 2">
+                        <then>
+                            <output expression="&quot;Pilihan invalid coba lagi&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </do>
             </do>
+            <output expression="&quot;Terima kasih sudah menggunakan layanan kami&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
