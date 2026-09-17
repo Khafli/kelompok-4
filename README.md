@@ -89,7 +89,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`flowchart.fprg`
+`package cost calculator.fprg`
 
 ---
 
@@ -97,7 +97,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js`
+`package cost calculator.js`
 
 ---
 
