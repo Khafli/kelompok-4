@@ -1,0 +1,51 @@
+Function Main
+    Declare Real berat, jarak, hargaservis, hargaberat, hargajarak, hargatotal
+    Declare Integer jenisservis, ulang
+
+    Do
+        Output "Berapa berat benda yang ingin dikirim dalam kg ?"
+        Input berat
+        Output "Berapa jarak pengirimannya dalam km ?"
+        Input jarak
+        Do
+            Output "Servis apa yang ingin anda gunakan?" & ToChar(13) & "1 = Reguler" & ToChar(13) & "2 = Ekspres"
+            Input jenisservis
+            If jenisservis != 1 && jenisservis != 2
+                Output "Pilihan invalid coba lagi"
+            End
+        Loop jenisservis != 1 && jenisservis != 2
+        If berat > 1
+            If jenisservis == 1
+                Assign hargaberat = int(1+(berat-1)*2)
+            Else
+                Assign hargaberat = int(1+(berat-1)*3)
+            End
+        Else
+            Assign hargaberat = 1
+        End
+        If jenisservis == 1
+            Assign hargaservis = 5
+        Else
+            Assign hargaservis = 10
+        End
+        If jarak > 10
+            If jenisservis == 1
+                Assign hargajarak = int(1+(jarak/10)*2)
+            Else
+                Assign hargajarak = int(1+(jarak/10)*2)
+            End
+        Else
+            Assign hargajarak = 1
+        End
+        Assign hargatotal = hargaservis + hargaberat + hargajarak
+        Output "Untuk total harga pengantaran paketnya adalah $" & hargatotal & ToChar(13)& "Untuk harga servis paketnya adalah $" & hargaservis & ToChar(13)& "Untuk harga berat paketnya adalah $" & hargaberat & ToChar(13)& "Untuk harga jarak paketnya adalah $" & hargajarak
+        Do
+            Output "Hitung biaya paket lain? 1= iya 2= tidak"
+            Input ulang
+            If ulang != 1 && ulang != 2
+                Output "Pilihan invalid coba lagi"
+            End
+        Loop ulang != 1 && ulang != 2
+    Loop ulang == 1
+    Output "Terima kasih sudah menggunakan layanan kami"
+End
