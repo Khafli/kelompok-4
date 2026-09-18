@@ -79,7 +79,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-`pseudocode.txt`
+`pseudocode calculator.txt`
 
 ---
 
