@@ -89,7 +89,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`package cost calculator.fprg`
+`package cost calculator(2).fprg`
 
 ---
 
