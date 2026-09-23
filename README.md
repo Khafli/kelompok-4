@@ -19,13 +19,13 @@
 
 ## 2. Project Title
 
-Number Guessing Game
+Package cost calculator
 
 ---
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+This program is a simple program that is used to calculate the price of a package delivery based on the weight, distance, and servis.
 
 ---
 
@@ -47,20 +47,19 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- The player's guess
-- The number of attempts
+- The package's weight
+- The package's distance to destination
+- The service type
 
 ---
 
 ## 6. Process
 
-The program compares the player's guess with the target number.
-
-If the guess is:
-
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+- The program gets the weight, distance and service type from the user 
+- The program calculates the cost based on the initial input
+- The program gives out the output
+- The program gives the user an option to reinstate the program
+- It repeats until the user finish it
 
 ---
 
@@ -68,10 +67,10 @@ If the guess is:
 
 The program displays:
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- The weight cost
+- The distance cost
+- The service cost
+- The total cost
 
 ---
 
@@ -89,7 +88,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`package cost calculator(2).fprg`
+`package cost calculator.fprg`
 
 ---
 
@@ -97,7 +96,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`package cost calculator.js`
+`package cost calculator (2).js`
 
 ---
 
