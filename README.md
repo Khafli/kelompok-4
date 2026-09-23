@@ -107,5 +107,6 @@ The program is tested using several test scenarios.
 Testing documentation:
 
 `test-flowgarithm package cost calculator.md.mp4`
+`test-javascripts package cost calculator.md.mp4`
 
 
