@@ -106,6 +106,6 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`test-cases.md`
+`test-flowgarithm package cost calculator.md.mp4`
 
 
